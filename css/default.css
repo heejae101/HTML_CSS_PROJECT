@@ -1,0 +1,493 @@
+/* header 부분 */
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('../static/배경.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    max-width:100%;
+}
+
+a,span,.bi,.bi1{
+    color: white;
+    font-weight: 700;
+}
+
+.bi1{
+    width: 30px;
+    height: 40px;
+}
+
+/* 로고 부분 */
+div.logo_area{
+    width: 100%;
+    height: 100px;
+}
+
+div.logo{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+svg._32ANSIZormifc9Vc6VVwrx{
+    color: white;
+}
+
+div.nav{
+    position: absolute;
+    left: 140px;
+    top: 30px;
+    width: 750px;
+    height: 20px;
+}
+
+div.nav li>a{
+    transition: background-color .5s;
+}
+
+div.nav li:hover{
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+div.nav li{
+    padding: 10px;
+    display: inline-block;
+    height: 20px;
+}
+
+div.header_nav{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 400px;
+    height: 30px;
+}
+
+div.header_nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.header_nav li{
+    display: inline-block;
+}
+
+div.header_nav li>a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.login_nav{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    right: 0px;
+}
+
+div.login_nav li{
+    margin: 5px;
+    display: inline-block;
+}
+
+div.login_nav li:hover{
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+div.menu_btn{
+    display: none;
+}
+
+div.text_center{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-left: 30px;
+    top: 45vh;
+}
+
+div.icon_area{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 180px;
+    height: 40px;
+    bottom: 40px;
+    left: 30px;
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+div.icon>svg{
+    margin: 5px;
+}
+
+span.h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* .btn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(41, 128, 185);
+} */
+
+
+/* section 챔피언을 선택하세요 부분 */ 
+section.section{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    /* justify-content: center; */
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+div.section_text_area{
+    margin-top: 100px;
+    width: 550px;
+    height: 120px;
+    text-align: center;
+}
+
+span.section_black_font{
+    color: black;
+}
+
+div.section_champ_icon_area{
+    margin-top: 20px;
+    width: 450px;
+    height: 50px;
+    flex-direction: row;
+}
+
+div.section_champ_icon_area li{
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.champion_icon{
+    width: 50px;
+    height: 50px;
+}
+
+img.champ_option_area{
+    width: 475px;
+    height: 475px;
+}
+
+.btn1{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(234, 171, 72);
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* 챔피언 스킨 부분 */
+
+div.champion_skin_area{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#45a0dc 50%, black 50%);
+    /* background-image: linear-gradient(0deg, black, #45a0dc);; */
+    position: relative;
+}
+
+div.flex_champion_skin_area{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+/**************************/
+div.champ_pic_area{
+    width: 600px; /*40%*/
+    height: 600px; /*70%*/
+}
+
+img.champion{
+    width: 100%;
+    height: 100%;
+}
+
+div.text_area{
+    text-align: center;
+    width: 420px;
+    height: 220px;
+    right:200px;
+    top: 200px;
+}
+
+/**************************/
+
+div.champion_background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+}
+
+img.background_area1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+
+img.background_area2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+/* footer 부분 */
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.footer_nav{
+    /* position: absolute; */
+    left: 200px;
+    width: 760px;
+    padding: 10px;
+}
+
+div.footer_text_area{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+p.footer_text{
+    justify-content: center;
+    top:100px;
+    color: gray;
+    font-size: 0.5rem;
+}
+
+div.footer_text{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+div.footer_nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+div.footer_nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.game_rating_area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* 기본 설정 */
+.btn {
+    display: inline-block;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    color: rgba(223,190,106,0.7);
+    border-radius: 0;
+    padding: 18px 80px 20px;
+    transition: all 0.7s ease-out;
+    background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    text-decoration: none;
+    border: none;
+    border: 1px solid rgba(223,190,106,0.3);
+  }
+  
+  .btn:hover {
+    color: #fff;
+    border: 1px solid rgba(223,190,106,0);
+    color: white;
+    background-position: 99% 50%;
+  }
+
+  html {scroll-behavior: smooth;}
+
+  @media all and (max-width:1050px) {
+    /* header 부분 */
+    .header{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size : 100% 800px;
+    }
+    
+    div.header_nav,div.icon_area,.logo_area{
+        display: none;
+    }
+
+    /* div.nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #3f51b5;
+    } */
+
+    div.text_center{
+        /* width: 100%; */
+        width: 50%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .btn{
+        width: 50%;  /*28.9523%; */
+        height: 20%;
+        padding: 0px;
+    }
+
+    div.menu_btn{
+        display: inline;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    /* section 챔피언을 선택하세요 부분 */
+    div.section_text_area{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 0.5rem;
+    }
+
+    span.h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    div.section_champ_icon_area{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    div.section_champ_icon_area>ul{
+        width:28.5714%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    div.section_champ_icon_area li{
+        margin-left: 0px;
+    }
+    .champion_icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    div.section_img_area{
+        width: 60%; /* 45.238% */
+        height: 60%;
+    }
+
+    img.champ_option_area{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn1{
+        width: 180px;
+        height: 35px;
+        background-color: rgb(234, 171, 72);
+        margin-top: 30px;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* 챔피언 스킨 부분 */
+    div.champ_pic_area{
+        width: 57.1428%; /*40%*/
+        height: 65%;
+    }
+
+    img.champion{
+        width: 100%;
+        height: 100%;
+    }
+
+    div.text_area{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    /* footer 부분 */
+
+    div.footer_nav{
+        width: 100%;
+    }
+    div.footer_nav li{
+        display: block;
+        margin: 20px;
+        font-size: 0.8rem;
+    }
+
+    .game_rating{
+        width:70.7619%;
+    }
+    /* .champion_icon{
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        width: 450px;
+        height: 50px;
+    }
+
+    div.section_champ_icon_area li{
+        display: inline-block;
+    } */
+
+  }
