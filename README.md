@@ -3,8 +3,7 @@
 <h1> 리그오브레전드 웹페이지 </h1>
 <hr>
 
-리그오브레전드 페이지를 기본 html과 css로 표현했다. 
-<br> 추후에 JavaScript 추가
+리그오브레전드 페이지를 기본 html과 css로 표현했습니다.
 <br> 2023 3-10 제작 
 <br> svg 및 이미지 저작권 : https://www.leagueoflegends.com/ko-kr/
 
